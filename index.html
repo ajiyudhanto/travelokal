@@ -5,20 +5,40 @@
         <link href="./style.css" rel="stylesheet"/>
     </head>
     <body>
-        <img src="img/logo/blue-logo.png"/>
-        <div>
-            <h1>How may I address you?</h1>
-            <h1>I am</h1>
-            <div>
-                <select>
-                    <option value="mr.">Mr.</option>
-                    <option value="mrs."">Mrs.</option>
+        <div id="landing-page">
+            <img src="img/logo/blue-logo.png"/>
+            <h1 class="asking-name">How may we address you?</h1>
+            <h1 class="asking-name">I am:</h1>
+            <div id="customer-welcome">
+                <select id="gender">
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
                 </select>
-                <form>
-                    <input id="name" type="text" value="Your Name"/>
-                    <input type="submit" value="Enter"/>
+                <form id="name-form">
+                    <input class="text-form" id="customer-name" type="text" placeholder="Enter your name here" required/>
+                    <button class="button-form" id="input-name">Enter</button>
                 </form>
             </div>
         </div>
+        <div id="home">
+            <div id="header">
+                <img href="#isi" src="./img/logo/white-logo-only.png" width="30" height="30"/>
+            </div>
+            <div id="isi">
+                <img src="./img/logo/blue-logo-only.png" height="150" width="150"/>
+                <h1 id="welcome"></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non metus dignissim, iaculis turpis blandit, aliquam justo. Quisque varius ipsum felis, et finibus massa consequat sit amet. Duis condimentum est mauris, eget porta augue vestibulum et. Morbi eu nunc lobortis, scelerisque tortor ac, varius lectus. Donec sit amet tellus nisi. Curabitur massa leo, vulputate id nisl non, viverra cursus urna. Mauris at eleifend urna. Sed sed cursus neque. Cras convallis tortor imperdiet augue molestie, eget sodales felis consequat. Mauris bibendum maximus libero, in rutrum ante efficitur et.</p>
+                <div id="asking-favorite-places">
+                    <h1>Let us know your top 3 places to visit in Indonesia!</h1>
+                    <form id="favorite-places">
+                        <input class="text-form" id="place-name" type="text" placeholder="type here"/>
+                        <button class="button-form" id="input-place-name">Enter</button>
+                    </form>
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="travel.js"></script>
     </body>
 </html>
