@@ -121,22 +121,28 @@ h1 {
 }
 
 .delete {
-    background: mediumslateblue;
+    background: royalblue;
     padding: 1px;
     border-radius: 4px;
     cursor: pointer;
     color: white;
+    float: right;
+    margin-top: 3px;
+    margin-right: 3px;
 }
 
 ul {
     list-style-type: none;
+    background-color: rgb(173, 216, 230);
+    width: 34%;
+    margin-left: 378px;
 }
 
 #list-favorites li {
-    margin-left: 0px;
-    margin-right: 100px;
     font-size: 20px;
     width: 100%;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 #footer {
