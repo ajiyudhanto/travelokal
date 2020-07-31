@@ -101,4 +101,22 @@ h1 {
 
 #favorite-places {
     margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.answer {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.delete {
+    background: mediumslateblue;
+    padding: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
 }
