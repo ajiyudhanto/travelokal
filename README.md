@@ -1,3 +1,3 @@
 # travelokal
 
-access  link : aji.yudhanto.github.io/travelokal
+access  link : ajiyudhanto.github.io/travelokal

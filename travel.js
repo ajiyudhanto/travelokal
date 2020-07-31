@@ -11,7 +11,10 @@ addNameForm.addEventListener('submit', function(e){
     document.querySelector('#landing-page').style.display = 'none'
     document.querySelector('#home').style.display = 'flex'
     document.getElementById("welcome").innerHTML = `Hi <strong style=color:royalblue;>${document.getElementById("gender").value} ${value}</strong>! Welcome to Travelokal.com`
+    //document.querySelector('body').style.height = '200%'
 })
+
+
 
 //Create element list
 const list = document.querySelector('#asking-favorite-places ul');
